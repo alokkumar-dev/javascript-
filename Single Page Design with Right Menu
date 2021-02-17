@@ -1,4 +1,3 @@
-
 <!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
 <script src="https://kit.fontawesome.com/d5fba335cd.js" crossorigin="anonymous"></script>
 <style>
@@ -9,6 +8,26 @@
 }
 
 :root {
+--primary-color: #D96AA7;
+--secondary-color: #422C73;
+--complimentary-color: #88BFB5;
+--contrast-color: #F2E527;
+--light-color: #D2A9D9;
+}
+
+.container {
+  background: #191919;
+  min-height: 100vh;
+  font-family: Montserrat, sans-serif;
+}
+
+nav a {
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+}
 
 nav {
     position: fixed;
