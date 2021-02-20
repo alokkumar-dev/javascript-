@@ -1,23 +1,7 @@
 <!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
 <style>
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-.spacer:before {
-  content: "";
-  position: absolute;
-  border-bottom: 1px solid #ffffff;
-  height: 1px;
-  width: 0%;
-  transition: width 0.25s ease;
-  transition-delay: 0.7s;
-}
-.item {
-  position: relative;
-  display: inline-block;
-  margin-right: 30px;
+  ma
   top: 10px;
   opacity: 0;
   transition: opacity 0.5s ease, top 0.5s ease;
