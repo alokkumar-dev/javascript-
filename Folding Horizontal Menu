@@ -1,6 +1,7 @@
 <!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
 
 <style>
+
 @import url('https://fonts.googleapis.com/css?family=Lato');
 body {
   background-color: #000000;
