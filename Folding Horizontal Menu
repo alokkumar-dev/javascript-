@@ -1,7 +1,57 @@
 <!-- this script got from www.javascriptfreecode.com coded by: Kerixa Inc. -->
 <style>
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+  background-color: #000000;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Lato', sans-serif;
+  margin: 20px;
+}
 * {
-  ma
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.menu {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  cursor: pointer;
+  pointer-events: none;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.menu:hover {
+  pointer-events: all;
+}
+.label {
+  display: inline-block;
+  cursor: pointer;
+  pointer-events: all;
+}
+.spacer {
+  display: inline-block;
+  width: 80px;
+  margin-left: 15px;
+  margin-right: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+  position: relative;
+}
+.spacer:before {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #ffffff;
+  height: 1px;
+  width: 0%;
+  transition: width 0.25s ease;
+  transition-delay: 0.7s;
+}
+.item {
+  position: relative;
+  display: inline-block;
+  margin-right: 30px;
   top: 10px;
   opacity: 0;
   transition: opacity 0.5s ease, top 0.5s ease;
@@ -91,4 +141,4 @@ Take your mouse over "FOLLOW ME".
   <div class="item"><span>Flickr</span></div>
   <div class="item"><span>Behance</span></div>
   <div class="item"><span>MixCloud</span></div>
-</div><a target='_blank' href='http://www.javascriptfreecode.com/' style='font-size: 8pt; text-decoration: none'>JavaScript Codes</a> 
+</div><a target='_blank' href='http://www.javascriptfreecode.com/' style='font-size: 8pt; text-decoration: none'>JavaScript Codes</a>
