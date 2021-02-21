@@ -19,11 +19,7 @@
   color: black;
 }
 .div:nth-child(odd){
-  transform: perspective(300px) rotateY(45deg);
-  box-shadow: -2px 2px 7px gray;
-}
-.div:nth-child(even){
-  transform: perspective(300px) rotateY(-45deg);
+  transform: perspective
     box-shadow: 2px 2px 7px gray;
 }
 .div:hover{
