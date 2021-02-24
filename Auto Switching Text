@@ -4,11 +4,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 40px;
-}
-
-.text {
+  fo
   position: absolute;
   width: 450px;
   left: 50%;
