@@ -5,8 +5,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   fo
-  position: absolute;
-  width: 450px;
+  positio
   left: 50%;
   margin-left: -225px;
   height: 40px;
