@@ -8,6 +8,7 @@ body {
   positio
   left: 50%;
   margin-left: -225px;
+
   height: 40px;
   top: 50%;
   margin-top: -20px;
