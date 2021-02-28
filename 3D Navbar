@@ -5,10 +5,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .stage{
   height: 350px;
-
   width: 250px;
   margin-left: auto;
   margin-right: auto;
@@ -34,7 +32,6 @@
  transition-duration: 0.2s;
 
 }
-
 .p:hover{
   background: white;
   color: black;
