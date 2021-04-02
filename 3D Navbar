@@ -41,6 +41,7 @@
   background: white;
   color: black;
 }
+
 .div:nth-child(odd){
   transform: perspective(300px) rotateY(45deg);
   box-shadow: -2px 2px 7px gray;
