@@ -8,11 +8,33 @@
 </head>
 <body>
     <script>
-        var ary=["Ram","Alok kumar","Mohan","Syamsunder","Ramesh pal"];
+        var ary = ["Ram","Alok kumar","Mohan","Syamsunder","Ram","Ramesh pal"];
         document.write(ary+"<br><br>");
 
         ary.sort();            // sort method
-        document.write(ary);
+        document.write(ary + "<br><br>");
+          
+        ary.reverse();        //Reverse method used for print reverse value
+        document.write(ary+"<br>");
+    
+        // push() and pop() method
+
+        ary.pop();            // delete a value from last of the array 
+        document.write(ary+"<br>");
+
+        ary.push("Devendya Yadav");
+        document.write(ary+"<br>");      //insert a new value in the last of array
+         
+
+
+        var a=ary.indexOf("Ram",2);
+        
+        document.write(a);
+
+
+
+        
+
 
     </script>
 </body>
