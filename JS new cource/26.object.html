@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object</title>
+</head>
+<body>
+    <script>
+        var a={
+            sname : 'Alok kumar',
+            fname : 'Het singh',
+            age : 20,
+            favmovies : ['Dhoom','Sholay','Dum'],   //this is a array
+            salary : function(){                    //this is a function deceletation
+                return 25000;
+            }
+        }
+        document.write(a.salary());        // calling function
+        // document.write(a);
+        console.log(a);
+        document.write(a.favmovies[2]);
+    </script>
+</body>
+</html>
