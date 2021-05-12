@@ -21,6 +21,41 @@
         // document.write(a);
         console.log(a);
         document.write(a.favmovies[2]);
+        
+
+        document.write("<br><br>");
+        document.write("second method of creat an object <br><br>");
+
+
+
+         //second method of creat an object
+
+         var persosn=new Object();
+
+         persosn.firstName='Devendra';
+         persosn.lastName ='Yadav';
+         persosn.age =25;
+
+         document.write(persosn.firstName);
+         document.write("<br><br>");
+
+
+        // Object inside the Object
+        document.write("Object inside the Object ");
+        document.write("<br><br>");
+
+        var student =[
+            {name :'Maneesh', age : 24},
+            {name :'Uttam', age : 23},
+            {name :'Mahendra', age : 25},
+
+
+        ]
+        for(a =0; a<student.length; a++){
+        document.write(student[a].name +" "+ student[a].age + "<br>");
+            
+        }
+        
     </script>
 </body>
 </html>
