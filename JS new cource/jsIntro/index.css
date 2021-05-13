@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(175, 171, 171);
+}
+#header{
+
+    height: 15vh;
+    width: 100vw;
+    background-color: rgb(248, 91, 91);
+    font-size: 30px;
+}
+nav{
+  background-color: rgb(157, 170, 247);
+  height: 5vh;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+a:hover{
+    background-color: rgb(238, 46, 206);
+}
+#image_div{
+
+}
+img{
+    height: 200px;
+    width: 150px;
+    padding: 10px;
+    float: left;
+
+}
+p{
+    float: left;
+}
+aside{
+    float: right;
+}
