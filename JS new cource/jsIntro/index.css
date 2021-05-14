@@ -2,14 +2,17 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(175, 171, 171);
 }
 #header{
 
-    height: 15vh;
+    height: 8vh;
     width: 100vw;
     background-color: rgb(248, 91, 91);
     font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    font-weight: bold;
+    color: white;
 }
 nav{
   background-color: rgb(157, 170, 247);
@@ -25,8 +28,14 @@ a{
 a:hover{
     background-color: rgb(238, 46, 206);
 }
-#image_div{
+#image_side{
+    width: 80%;
+    height: 400px;
+    background-color: rgb(237, 248, 248);
+    float: left;
+   padding: 5px;
 
+    
 }
 img{
     height: 200px;
@@ -35,9 +44,13 @@ img{
     float: left;
 
 }
-p{
-    float: left;
-}
-aside{
+
+#aside_div{
     float: right;
+    margin-top: 0;
+    width: 17.7%;
+    height: 400px;
+    padding: 5px;
+    background-color: rgb(228, 208, 208);
+    border: 2px solid rgb(167, 165, 165);
 }
