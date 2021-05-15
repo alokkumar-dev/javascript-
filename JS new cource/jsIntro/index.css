@@ -7,7 +7,7 @@
 
     height: 50px;
     width: 100%;
-    background-color: rgb(248, 91, 91);
+    /* background-color: rgb(248, 91, 91); */
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     /* padding: 5px;
@@ -15,8 +15,8 @@
     font-weight: bold;
     color: white;
 }
-.xyz{
-    background-color: rgb(255, 238, 0);
+.abc{
+    background-color: rgb(102, 21, 120);
 }
 nav{
   background-color: rgb(157, 170, 247);

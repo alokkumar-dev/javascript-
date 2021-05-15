@@ -1,9 +1,12 @@
 var element;
 
-document.getElementById("header").innerHTML="<h3>Alok Kumar</h3>";
+// document.querySelector("#header").style.backgroundColor ="tan";
+// document.querySelector("#header").style.color ="blue";
 
-element = document.getElementById("header").setAttribute("style","border : 6px dotted yellow");
+document.querySelector("#header").className = "abc xyz";
 
-element = document.getElementById("header").getAttribute("class");
+element = document.querySelector("#header").className;
+
+// element = document.getElementById("header").getAttribute("class");
 
 console.log(element);
