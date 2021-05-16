@@ -1,12 +1,24 @@
-var element;
+// var element;
 
-// document.querySelector("#header").style.backgroundColor ="tan";
-// document.querySelector("#header").style.color ="blue";
 
-document.querySelector("#header").className = "abc xyz";
 
-element = document.querySelector("#header").className;
+document.getElementById("header").addEventListener("dblclick" , abc);
 
-// element = document.getElementById("header").getAttribute("class");
+document.getElementById("header").addEventListener("dblclick" , function (){
+    this.style.border = "10px dotted red";
+});
 
-console.log(element);
+function abc(){
+    document.getElementById("header").style.backgroundColor ="pink";
+}
+
+
+
+
+// document.getElementById("header").onmouseenter =abc;
+// function abc(){
+//     document.getElementById("header").style.backgroundColor ="green";
+// }
+
+// console.log(element);
+
