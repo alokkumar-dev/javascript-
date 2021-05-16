@@ -2,6 +2,20 @@
 
 
 
+
+
+document.getElementById("header").addEventListener("click", abc);
+
+function abc(){
+    // document.getElementById("header").classList.add("xyz", "efg");
+    // document.getElementById("header").classList.toggle(";
+}
+
+var a=document.getElementById("header").classList.contains("efg");
+console.log(a);
+
+// Add eventListener Method
+/*
 document.getElementById("header").addEventListener("mouseleave" , abc);
 
 document.getElementById("header").addEventListener("click" , xyz);
@@ -16,7 +30,7 @@ function xyz(){
 }
 
 
-
+*/
 
 
 // document.getElementById("header").onmouseenter =abc;
