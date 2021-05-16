@@ -2,15 +2,19 @@
 
 
 
-document.getElementById("header").addEventListener("dblclick" , abc);
+document.getElementById("header").addEventListener("mouseleave" , abc);
 
-document.getElementById("header").addEventListener("dblclick" , function (){
-    this.style.border = "10px dotted red";
-});
+document.getElementById("header").addEventListener("click" , xyz);
 
 function abc(){
     document.getElementById("header").style.backgroundColor ="pink";
 }
+
+
+function xyz(){
+    document.getElementById("header").removeEventListener('mouseleave' , abc);
+}
+
 
 
 
