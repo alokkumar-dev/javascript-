@@ -4,6 +4,8 @@ var element;
 element=document.getElementById("header").setAttribute("class","rrr");
 
 element=document.getElementById("header").getAttribute("class");
+
+element=document.getElementById("header").removeAttribute("class");
 console.log(element);
 
 
