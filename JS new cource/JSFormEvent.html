@@ -7,13 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-   <form action="">
+   <form action="" id="myForm">
        <label for="name">Name</label>
-       <input type="text" id="name">
-       <label for="email" >Email</label>
-       <input type="email" id="email">
+       <input type="text" id="name" required><br><br>
+       <label for="email">Email</label>
+       <input type="email" id="email" required><br><br>
        <label for="country">Country</label>
-       <select name="" id="">
+       <select name="select country" id="country">
+           <option value="">select country</option>
            <option value="">India</option>
            <option value="">Palistan</option>
            <option value="">Dubai</option>
@@ -22,6 +23,53 @@
 
        </select>
 
+       <input type="submit" value="submit">
+
    </form> 
+
+   <script>
+
+       document.getElementById("name").onfocus=focusFunction;
+       document.getElementById("email").onfocus=focusFunction;
+       document.getElementById("country").onfocus=focusFunction;
+
+
+       function focusFunction(){
+           this.style.background ="red";
+       }
+
+       document.getElementById("name").onblur=blurFunction;
+       document.getElementById("email").onblur=blurFunction;
+       document.getElementById("country").onblur=blurFunction;
+
+
+       function blurFunction(){
+           this.style.background ="";
+       }
+
+       document.getElementById("name").oninvalid=invalidFunction;
+       document.getElementById("email").oninvalid=invalidFunction;
+       document.getElementById("country").oninvalid=invalidFunction;
+
+
+       function invalidFunction(){
+           alert("please fiil the detaile");
+       }
+    
+
+
+       document.getElementById("myForm").onsubmit=submitFunction;
+       function submitFunction(){
+           var x=document.getElementById("name").value;
+           alert(x+" your form is submit");
+       }
+
+    //    function focusFunctoin(element){
+    //       element.style.background ="lime";
+    //    };
+    //    function blurFuncton(element){
+    //      element.style.background ="";
+    //    };
+   </script>
 </body>
 </html>
