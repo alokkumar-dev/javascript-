@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+    </style>
+</head>
+<body>
+    
+  <h1>DOM create methods and apping methods</h1>
+  <div id="text">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad numquam
+      consequatur blanditiis est delectus. Et quae accusamus a voluptas in odio 
+      optio mollitia dolores ea accusantium omnis exercitationem voluptatibus impedit 
+      labore natus magni molestiae ad, unde iste laboriosam iure veritatis obcaecati. 
+      Nam ipsa debitis id ipsam error est illo cum.</p>
+  </div>
+
+
+    <script>
+        var newElement=document.createElement("h6");
+        var elementTextNode=document.createTextNode("this is just a text");
+
+        // var newComment=document.createComment("this is just a new comment");
+        // document.getElementById("text").appendChild(newComment);
+
+        newElement.appendChild(elementTextNode);
+        // document.getElementById("text").appendChild(newElement);
+
+        var target=document.getElementById("text");
+        target.insertBefore(newElement,target.childNodes[0]);
+        
+        // console.log(newElement);
+    </script>
+</body>
+</html>
